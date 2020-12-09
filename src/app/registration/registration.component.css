@@ -1,0 +1,15 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/img/cta-bg.jpg') no-repeat;
+    background-size: cover;
+    color: rgb(173, 212, 247);
+    text-align: center;
+}
+
+.text {
+    color: #fadfdf;
+    font-size: 115%;
+    float: left;
+    background-color: darkcyan;
+}

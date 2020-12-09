@@ -1,0 +1,56 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Core java",
+      "author": "james gosling",
+      "description": "Father of java language",
+      "rackNumber": 3,
+      "numberOfCopy": 5
+    },
+    {
+      "id": 2,
+      "title": "Advance Java",
+      "author": "james gosling",
+      "description": "Book of advance java",
+      "rackNumber": 1,
+      "numberOfCopy": 3
+    },
+    {
+      "id": 3,
+      "title": "Angular",
+      "author": "Miško Hevery",
+      "description": "AngularJS was originally developed in 2009 by Miško Hevery at Brat Tech LLC",
+      "rackNumber": 2,
+      "numberOfCopy": 6
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "firstName": "Shrutika",
+      "lastName": "Andewar",
+      "email": "shrutika.andewar@hcl.com",
+      "password": "Shrutika",
+      "loginAs": "librarian",
+      "confirmPassword": "Shrutika"
+    },
+    {
+      "id": 2,
+      "firstName": "Shrutika",
+      "lastName": "Andewar",
+      "email": "shrutikaandewar18@gmail.com",
+      "password": "Shrutika",
+      "loginAs": "member",
+      "confirmPassword": "Shrutika"
+    }
+  ],
+  "userBorrowed": [
+    {
+      "id": "2",
+      "bookIdArray": [
+        1
+      ]
+    }
+  ]
+}
